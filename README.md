@@ -19,7 +19,7 @@ WalletWatch is a command-line interface (CLI) application designed to help users
    git clone https://github.com/yourusername/WalletWatch.git
    cd WalletWatch
 
-## Set Up a Virtual Environment (optional but recommended):
+## Set Up a Virtual Environment :
 
 python3 -m venv venv
 source venv/bin/activate # On Windows use `venv\Scripts\activate`
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 To run the WalletWatch application, use the following command:
 
-## python main.py
+## cd WalletWatch
 
 Available Commands
 
