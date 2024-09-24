@@ -7,6 +7,35 @@ def cli():
     pass
 
 
+def main_menu():
+    while True:
+        click.echo("\nWalletWatch - Main Menu")
+        click.echo("1. Add Transaction")
+        click.echo("2. List Transactions")
+        click.echo("3. Edit Transaction")
+        click.echo("4. Delete Transaction")
+        click.echo("5. Generate Summary")
+        click.echo("6. Exit")
+
+        choice = click.prompt("Please select an option", type=int)
+
+        if choice == 1:
+            add()
+        elif choice == 2:
+            list()
+        elif choice == 3:
+            edit()
+        elif choice == 4:
+            delete()
+        elif choice == 5:
+            summary()
+        elif choice == 6:
+            click.echo("Exiting WalletWatch. Goodbye!")
+            break
+        else:
+            click.echo("Invalid option. Please try again.")
+
+
 @cli.command()
 @click.option('--type', prompt='Transaction type (income/expense)', help='Type of transaction')
 @click.option('--amount', prompt='Amount', type=float, help='Amount of transaction')

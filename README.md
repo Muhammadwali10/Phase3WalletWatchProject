@@ -36,35 +36,19 @@ To run the WalletWatch application, use the following command:
 
 Available Commands
 
-## Add a Transaction:
+## python main.py
 
-## python main.py add
+When you run the application, you will be presented with the main menu where you can select various options:
 
-Follow the prompts to enter the transaction type, amount, and description.
+WalletWatch - Main Menu
 
-## List Transactions:
-
-## python main.py list
-
-Displays all transactions stored in the database.
-
-## Edit a Transaction:
-
-## python main.py edit
-
-Follow the prompts to enter the transaction ID and new details.
-
-## Delete a Transaction:
-
-## python main.py delete
-
-Follow the prompt to enter the transaction ID to delete.
-
-## Generate Summary:
-
-## python main.py summary
-
-Displays the total income, total expenses, and balance.
+1. Add Transaction
+2. List Transactions
+3. Edit Transaction
+4. Delete Transaction
+5. Generate Summary
+6. Exit
+   Please select an option [1-6]: //you will get to choose from this 6 options
 
 # Author
 
